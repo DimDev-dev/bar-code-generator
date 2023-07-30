@@ -1,5 +1,5 @@
 function barcodeGen() {
-  const data = document.querySelector(".input").value;
+  let data = document.querySelector(".input").value;
   JsBarcode("#barcode", data, {
     background: "#ffff",
     color: "#f1f1f1",
